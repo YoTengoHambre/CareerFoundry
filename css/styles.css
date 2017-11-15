@@ -1,3 +1,11 @@
+.carousel-caption h3{
+	font-size: 45px;
+}
+.carousel-caption p{
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
 .jumbotron {
   background-image: url("../img/the-quiraing.jpg");
   background-size: cover;
@@ -23,6 +31,7 @@ body {
 	position: fixed;
 	width: 100%;
 	top: 0;
+	z-index: 1;
 }
 
 .nav ul {
