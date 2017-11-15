@@ -1,0 +1,148 @@
+.jumbotron {
+  background-image: url("../img/the-quiraing.jpg");
+  background-size: cover;
+  background-position-y: 25%;
+  height: 280px;
+}
+
+.jumbotron p {
+  color: lightgreen;
+}
+
+/** Contact Page **/
+* { box-sizing: border-box; }
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+  padding-top: 74.67px;
+}
+
+.nav {
+   	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.nav ul {
+		float: right;
+		margin: 16px;
+}
+.nav ul li {
+	display: inline-block;
+	padding: 10px 10px 10px;	
+}
+
+.nav ul li a {
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.05em;	
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size: 20px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+	-ms-transition: color 600ms;
+	-o-transition: color 600ms;
+	-moz-transition: color 600ms;
+
+}
+.nav a:hover {
+       color: #ff0;
+       text-decoration: none;
+}
+.container {
+	width:80%;
+	margin: 0 auto;
+}
+.container_contact {
+	width:80%;
+	margin: 0 auto;
+}
+.container_contact a{
+	color: rgb(210, 210, 210);
+}
+.header {
+	margin-bottom: 130px;
+}
+.header h1 {
+  text-align: center;
+}
+.header .title {
+	position: fixed;
+  top: 0px;
+
+}
+.image img {
+	width: 100%;
+}
+.intro.column, .skills.column{
+	padding:0 20px;
+}
+.skills.column{
+	background-color: #5AD4C2;
+	color: #FFF;
+	padding: 10px 0;
+}
+.column{
+	display:inline-block;
+	float:left;
+	width: 33.33333333333333%
+}
+.main-text {
+  clear: both;
+  padding-top: 60px;
+}
+.fixed-div{
+	position:fixed;
+	bottom:0px;
+}
+
+#skill-list {
+  margin-left: 50px;
+}
+
+/*Typography*/
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+li, p {
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;	
+}
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.intro h1 {
+	font-weight:900;
+	color: #DDDDDD;
+}
+
+.column {
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	color: rgb(210, 210, 210);
+}
+
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+border-top-width: 0px;
+}
+.panel-default>.panel-heading{
+	background-color:transparent;
+	border-color: transparent;
+}
+.panel-group .panel+.panel{
+	margin-top:0px;
+}
+.panel{
+	border-width: 0px;
+}
