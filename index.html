@@ -21,16 +21,52 @@
     <![endif]-->
   </head>
 
-  <body>
-    <div class="nav">
+  <body data-spy="scroll" data-target=".navbar">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+       <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+  data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="masterCreations navbar-brand">
+              <a href="#">Masterful Creations</a>
+            </div> <!--end projectName -->
+ 
+            </div> 
+            <!--end navbar-header -->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">Work</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">FAQ</a></li>
+            </ul>
+  
+    </div> <!-- nav -->
+  </div> <!-- end nav container-->
+<!--
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#">Work</a></li>
-        <li><a href="#">FAQ</a></li>
+        <li><a href="#faq">FAQ</a></li>
       </ul>
-    </div>
+    -->
+    </div> <!-- end navbar -->
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -90,7 +126,7 @@
       </div><!-- /container -->
  <!--   </div><!-- /jumbotron -->
 
-    <div class="container-fluid">
+    <div class="container-fluid anchor" id="home">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
@@ -115,6 +151,110 @@
 
     </div> <!-- /container -->
 
+<div class = "container-fluid anchor" id="about">
+
+      <div class="header">
+        <h1>About Me</h1>
+        <div class="image column">
+          <img src="img/genius-cat.jpg" alt="Kitten">
+        </div><!-- end image -->
+        <div class="intro column">
+          <h2>Introduction</h2>
+          <p>
+            I'm a web enthusiast, tech evangalist, avid cyclist, political junkie and a musical maestro.
+          </p>
+        </div><!-- end intro -->
+        <div class="skills column">
+          <h3>My Skills</h3>
+          <ul id="skill-list">
+            <li>HTML/CSS</li>
+            <li>Javascript/JQuery</li>
+            <li>WordPress plugin development</li>
+            <li>MySQL</li>
+            <li>Python</li>
+            <li>PHP</li>
+          </ul>
+        </div><!-- end skill -->
+        <div class="main-text">
+          <h3>More About Me</h3>
+            <p>
+              I have previously done one-off development projects in my time as a systems administrator, I have devoted my last year to become a web developer and am looking to join a team full time.
+            </p>
+        </div>
+      </div><!-- end header -->
+
+</div>
+<div class = "container-fluid anchor" id="faq">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#collapseOne" href="#collapseOne">
+          Why did you decide to become a web developer?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+  There is an inherent joy in creating something. Web development is satisfying in particular because it marries technical mastery with artistic inclination. The thrill of taking an idea and making it a reality is what drives me most.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#collapseTwo" href="#collapseTwo">
+          What is your design process?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        First, I assess what actually needs to be accomplished technically and how that can be done, and once I have the basic logic in place I experiment with the user interface and usability. To find the best visually user intuitive design that is satisfying to the end user, I like to experiment with multiple mock designs as I hone in on what works for a specific site or app.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#collapseThree" href="#collapseThree">
+          What is your project turn around time?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        It varies with each project and my current workload, which is why you should enquire to get the most accurate estimate.
+              </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="container-fluid anchor" id="contact">
+      <div class="container_contact">
+        <div class="intro">
+          <h1>Contact Us</h1>
+        </div><!-- intro -->
+        <div class="phone column">
+          <h2>
+Phone</h2>
+          <span class="glyphicon glyphicon-earphone"></span>&nbsp; 555-555-5167
+        </div><!-- column -->
+        <div class="email column">
+          <h2>Email</h2>
+          <span class="glyphicon glyphicon-envelope"></span>&nbsp; <a href="mailto:eddieflaherty01@gmail.com">eddie.flaherty01@gmail.com</a>
+        </div>
+        <div class="stay-tuned column">
+          <h2>FAQ</h2>
+          <span class="glyphicon glyphicon-heart"></span>
+          <a href = "faq.html">Frequently Asked Questions</a>
+        </div>
+
+      </div><!-- container_contact -->
+
+
+</div>
 
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
@@ -127,6 +267,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Can place script tags with JavaScript files here -->
+
+<script type="text/javascript">
+  var $root = $('html, body');
+
+  $('.navbar-nav a').click(function() {
+    var href = $.attr(this, 'href');
+
+    if (href != undefined && href != '#') {
+      $root.animate({
+        scrollTop: $(href).offset().top
+      }, 500, function () {
+        window.location.hash = href;
+      });
+    }
+
+    return false;
+  });
+</script>
+JavaScrip
 
   </body>
 </html>

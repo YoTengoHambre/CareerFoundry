@@ -23,9 +23,58 @@
 body {
   background-color: #fffeea;
   color: #34495e;
-  padding-top: 74.67px;
+/*  padding-top: 74.67px;*/
+padding-top: 50px;
+  position: relative;
+}
+.masterCreations {
+    text-transform: uppercase;
 }
 
+.masterCreations a {
+    color: white;
+}
+
+
+.navbar-nav>li>a, .navbar-brand a {
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.05em;	
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size: 20px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+	-ms-transition: color 600ms;
+	-o-transition: color 600ms;
+	-moz-transition: color 600ms;
+
+}
+.navbar-nav>li>a:hover {
+       color: #ff0;
+       text-decoration: none;
+}
+.anchor {
+  padding-top: 50px;
+}
+
+
+#contact{
+    background-image: url("../img/parallax.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+
+
+/*
 .nav {
    	background-color: black;
 	position: fixed;
@@ -60,6 +109,7 @@ body {
        color: #ff0;
        text-decoration: none;
 }
+*/
 .container {
 	width:80%;
 	margin: 0 auto;
