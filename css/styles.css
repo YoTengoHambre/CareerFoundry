@@ -158,7 +158,8 @@ padding-top: 50px;
 }
 
 #skill-list {
-  margin-left: 50px;
+/*  margin-left: 50px;*/
+padding-left: 15px;
 }
 
 /*Typography*/
