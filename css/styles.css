@@ -229,3 +229,12 @@ border-top-width: 0px;
 .portfolio-col img{
 	max-width: 100%;
 }
+
+/* Social media */
+#twitter-widget-0 {
+	top: 3px;
+	position: relative !important;
+}
+.fb-share-button {
+	bottom: 2px;
+}
