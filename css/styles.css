@@ -18,6 +18,13 @@
 }
 
 /** Contact Page **/
+form input, form textarea {
+	color: black;
+}
+.form-control{
+	width: 80%;
+}
+
 * { box-sizing: border-box; }
 
 body {
@@ -69,7 +76,7 @@ padding-top: 50px;
 /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
     padding:100px;
     padding-top: 50px;
-    height: 400px;
+    height: 550px;
 }
 
 
@@ -115,11 +122,11 @@ padding-top: 50px;
 	margin: 0 auto;
 }
 .container_contact {
-	width:80%;
+/*	width:80%;*/
 	margin: 0 auto;
 }
 .container_contact a{
-	color: rgb(210, 210, 210);
+	color: rgb(228, 225, 225);
 }
 .header {
 	margin-bottom: 25px;
@@ -195,7 +202,7 @@ li, p {
 
 .column {
 	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-	color: rgb(210, 210, 210);
+	color: rgb(228, 225, 225);
 }
 
 
