@@ -245,3 +245,16 @@ border-top-width: 0px;
 .fb-share-button {
 	bottom: 2px;
 }
+.learn-more {
+  text-align: left;
+  float: left;
+}
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
