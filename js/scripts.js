@@ -92,5 +92,27 @@ $(".message-box").on("keyup", function() {
 $('textarea').css('background-color', 'lightgray');
 
 
+  // work section
+  console.log(works);
+  for(var i = 0; i < works.length; ++i ) {
+  $("#work").append("\
+    <div class='col-xs-6 col-sm-4 col-md-3'>\
+      <img class='img-responsive' src='" + works[i] + "'>\
+    </div>\
+  ");
+var images = $('#work .col-xs-6.col-sm-4.col-md-3 img');
+
+if (i % 2 === 0){
+	alert('true for ' + i);
+	$(images[i]).css('border', '2px solid DodgerBlue');
+} else {
+	alert('false for ' + i);
+	$(images[i]).css('border', '2px solid salmon');
+
+}
+
+
+};
+
 
 });
