@@ -121,4 +121,18 @@ $(".work-img").mouseenter(function(){
   $(".info", this).hide();
 });
 
+
+
+
+
+
 });
+
+// Google Map
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 38.9004294, lng: -77.03167029999997},
+          zoom: 8
+        });
+      }

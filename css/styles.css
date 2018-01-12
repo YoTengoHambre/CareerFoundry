@@ -235,3 +235,16 @@ border-top-width: 0px;
 .proj-title {
   font-weight:100;
 }
+
+
+/* Google Maps */
+      #map {
+        height: 300px;
+        width: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
