@@ -59,14 +59,37 @@ $('.submit-btn').on('click', function() {
 });
 */
 $("#button").on("click", function() {
-  var comment = $('.message-box').val();
-  $('#visible-comment').html(comment);
-  $('.message-box').hide();
-  return false;
+
+	if ($('.message-box').val() == ""){
+		$('.message-box').css('border', '3px red solid');
+	} else {
+		$('.message-box').css('border', 'none');
+		  var comment = $('.message-box').val();
+		  console.log(comment);
+		$('#visible-comment').html(comment);
+	  $('.message-box').hide();
+	  return false;
+	}
+});
+
+$(".message-box").on("keyup", function() {
+
+	var charCount = $(".message-box").val().length;
+	console.log(charCount);
+	$("#char-count").html(charCount);
+	if(charCount > 50) {
+	      $("#char-count").css("color", "red");
+	} else {
+	      $("#char-count").css("color", "white");
+	};
+
+
+        // in here is where the rest of our code for this Exercise will go         
 });
 
 
-$('textarea').css('background-color', 'red');
+
+$('textarea').css('background-color', 'lightgray');
 
 
 
