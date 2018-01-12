@@ -212,3 +212,26 @@ border-top-width: 0px;
     width: 100%;
     padding: 10px;
 }
+
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+}
+.proj-title {
+  font-weight:100;
+}
